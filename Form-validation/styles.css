@@ -1,0 +1,175 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('./public/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #FA813C;
+    margin-left: 40px;
+}
+
+header .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 4rem;
+}
+
+header .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+header .search-box {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+
+header .search-box input {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 20px 0 0 20px;
+    border: 1px solid #FA6E00;
+    background-color: transparent;
+    color: #fff;
+    border-right: none;
+}
+
+header .search-box button {
+    padding: 0.5rem 1rem;
+    background: #FA6E00;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 0 20px 20px 0;
+    font-size: 1rem;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: calc(100vh - 80px);
+    color: #fff;
+}
+
+.content {
+    max-width: 500px;
+}
+
+.content h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.content p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    line-height: 1.5rem;
+}
+
+.join-btn {
+    padding: 0.8rem 2rem;
+    background: #FF7101;
+    border-radius: 20px;
+    color: #090909;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.login-form {
+    background: #090909;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-heading {
+    text-align: center;
+    background: #fff;
+    color: #FA813C;
+    padding: 0.5rem 0;
+    border-radius: 5px;
+    margin-bottom: 2.5rem;
+}
+
+.login-heading h2 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.login-form .form-group {
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 0.5rem;
+    border: none;
+    border-bottom: 1px solid #FF7101;
+    background: transparent;
+    outline: none;
+    color: antiquewhite;
+}
+
+.login-form .error {
+    color: red;
+    font-size: 0.8rem;
+    position: absolute;
+}
+
+.login-form button {
+    width: 100%;
+    padding: 0.8rem;
+    background: #FA6E00;
+    border: none;
+    border-radius: 8px;
+    color: #0f0e0e;
+    cursor: pointer;
+    font-size: 1.5rem;
+    margin-top: 2.5rem;
+}
+
+.login-form p {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.login-form p a {
+    color: #7F2618;
+    text-decoration: none;
+    text-align: center;
+}
+
+.login-form .social-login {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.login-form .social-login a {
+    margin: 0 10px;
+    color: #FEFFFB;
+    font-size: 1.5rem;
+    transition: transform 0.3s ease;
+}
+
+.login-form .social-login a:hover {
+    transform: scale(1.2);
+}
